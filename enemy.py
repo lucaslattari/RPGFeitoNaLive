@@ -5,7 +5,7 @@ class Enemy:
         self.name = ''
         self.weapon = ''
         self.hp = 100
-        
+
     def getRandomEnemy(self, mapName):
         if(mapName == 'China'):
            self.name = 'Panda'
@@ -27,7 +27,5 @@ class Enemy:
             else:
                 self.name = 'ET Bilu'
                 self.weapon = 'Conhecimento'
-                
-        return self.name, self.weapon
-    
-    
+
+        return self
